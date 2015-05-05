@@ -17,12 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"Whunted";
+    UIImage *searchImage = [UIImage imageNamed:@"search.png"];
+    UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithImage:searchImage style:UIBarButtonItemStylePlain target:self action:nil];
     
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
-    UIBarButtonItem *cameraItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:nil];
+    UIImage *chatImage = [UIImage imageNamed:@"chat.png"];
+    UIBarButtonItem *chatButton = [[UIBarButtonItem alloc] initWithImage:chatImage style:UIBarButtonItemStylePlain target:self action:nil];
     
-    NSArray *actionButtonItems = @[shareItem, cameraItem];
+    UIImage *profile = [UIImage imageNamed:@"profile.png"];
+    UIBarButtonItem *profileButton = [[UIBarButtonItem alloc] initWithImage:profile style:UIBarButtonItemStylePlain target:self action:nil];
+    
+    UIBarButtonItem *buyButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:nil];
+    
+    NSArray *actionButtonItems = @[buyButton, profileButton, chatButton, searchButton];
     self.navigationItem.rightBarButtonItems = actionButtonItems;
 }
 

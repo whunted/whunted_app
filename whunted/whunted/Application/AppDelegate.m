@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "NewsFeedViewController.h"
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
 @interface AppDelegate ()
 
 @end
@@ -24,8 +27,10 @@
     UINavigationController *navController = [[UINavigationController alloc] init];
     NewsFeedViewController *newsFeedVC = [[NewsFeedViewController alloc] init];
     [navController setViewControllers:[NSArray arrayWithObject:newsFeedVC]];
-    
     [self.window setRootViewController:navController];
+    
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     return YES;
 }
