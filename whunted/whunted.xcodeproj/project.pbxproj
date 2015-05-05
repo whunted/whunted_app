@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		E95574411AF86D2600F0B230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95574401AF86D2600F0B230 /* main.m */; };
 		E95574441AF86D2600F0B230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E95574431AF86D2600F0B230 /* AppDelegate.m */; };
-		E95574471AF86D2600F0B230 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95574461AF86D2600F0B230 /* ViewController.m */; };
-		E955744A1AF86D2600F0B230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95574481AF86D2600F0B230 /* Main.storyboard */; };
 		E955744C1AF86D2600F0B230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E955744B1AF86D2600F0B230 /* Images.xcassets */; };
 		E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E955744D1AF86D2600F0B230 /* LaunchScreen.xib */; };
 		E955745B1AF86D2600F0B230 /* whuntedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E955745A1AF86D2600F0B230 /* whuntedTests.m */; };
+		E95574671AF8887000F0B230 /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95574651AF8887000F0B230 /* NewsFeedViewController.m */; };
+		E95574681AF8887000F0B230 /* NewsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95574661AF8887000F0B230 /* NewsFeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		E95574401AF86D2600F0B230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E95574421AF86D2600F0B230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E95574431AF86D2600F0B230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E95574451AF86D2600F0B230 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E95574461AF86D2600F0B230 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E95574491AF86D2600F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E955744B1AF86D2600F0B230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E955744E1AF86D2600F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E95574541AF86D2600F0B230 /* whuntedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whuntedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95574591AF86D2600F0B230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E955745A1AF86D2600F0B230 /* whuntedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = whuntedTests.m; sourceTree = "<group>"; };
+		E95574641AF8887000F0B230 /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
+		E95574651AF8887000F0B230 /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
+		E95574661AF8887000F0B230 /* NewsFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsFeedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				E95574421AF86D2600F0B230 /* AppDelegate.h */,
 				E95574431AF86D2600F0B230 /* AppDelegate.m */,
-				E95574451AF86D2600F0B230 /* ViewController.h */,
-				E95574461AF86D2600F0B230 /* ViewController.m */,
-				E95574481AF86D2600F0B230 /* Main.storyboard */,
+				E95574641AF8887000F0B230 /* NewsFeedViewController.h */,
+				E95574651AF8887000F0B230 /* NewsFeedViewController.m */,
+				E95574661AF8887000F0B230 /* NewsFeedViewController.xib */,
 				E955744B1AF86D2600F0B230 /* Images.xcassets */,
 				E955744D1AF86D2600F0B230 /* LaunchScreen.xib */,
 				E955743E1AF86D2600F0B230 /* Supporting Files */,
@@ -199,8 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E955744A1AF86D2600F0B230 /* Main.storyboard in Resources */,
 				E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */,
+				E95574681AF8887000F0B230 /* NewsFeedViewController.xib in Resources */,
 				E955744C1AF86D2600F0B230 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95574471AF86D2600F0B230 /* ViewController.m in Sources */,
 				E95574441AF86D2600F0B230 /* AppDelegate.m in Sources */,
 				E95574411AF86D2600F0B230 /* main.m in Sources */,
+				E95574671AF8887000F0B230 /* NewsFeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E95574481AF86D2600F0B230 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E95574491AF86D2600F0B230 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E955744D1AF86D2600F0B230 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,6 +410,7 @@
 				E95574601AF86D2600F0B230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E95574611AF86D2600F0B230 /* Build configuration list for PBXNativeTarget "whuntedTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +419,7 @@
 				E95574631AF86D2600F0B230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsFeedViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    [self.window makeKeyAndVisible];
+    
+    UINavigationController *navController = [[UINavigationController alloc] init];
+    NewsFeedViewController *newsFeedVC = [[NewsFeedViewController alloc] init];
+    [navController setViewControllers:[NSArray arrayWithObject:newsFeedVC]];
+    
+    [self.window setRootViewController:navController];
+    
     return YES;
 }
 

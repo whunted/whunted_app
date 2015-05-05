@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewsFeedViewController.h
 //  whunted
 //
 //  Created by thomas nguyen on 5/5/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NewsFeedViewController : UIViewController
 
 @end
-
