@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94D17CB1AF8B51000E31B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D17CA1AF8B51000E31B01 /* AppDelegate.m */; };
+		E94D17D11AF8B57700E31B01 /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D17CF1AF8B57700E31B01 /* NewsFeedViewController.m */; };
+		E94D17D21AF8B57700E31B01 /* NewsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94D17D01AF8B57700E31B01 /* NewsFeedViewController.xib */; };
 		E95574411AF86D2600F0B230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95574401AF86D2600F0B230 /* main.m */; };
-		E95574441AF86D2600F0B230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E95574431AF86D2600F0B230 /* AppDelegate.m */; };
 		E955744C1AF86D2600F0B230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E955744B1AF86D2600F0B230 /* Images.xcassets */; };
 		E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E955744D1AF86D2600F0B230 /* LaunchScreen.xib */; };
 		E955745B1AF86D2600F0B230 /* whuntedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E955745A1AF86D2600F0B230 /* whuntedTests.m */; };
-		E95574671AF8887000F0B230 /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95574651AF8887000F0B230 /* NewsFeedViewController.m */; };
-		E95574681AF8887000F0B230 /* NewsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95574661AF8887000F0B230 /* NewsFeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +27,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E94D17C91AF8B51000E31B01 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Application/AppDelegate.h; sourceTree = "<group>"; };
+		E94D17CA1AF8B51000E31B01 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = "<group>"; };
+		E94D17CE1AF8B57700E31B01 /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsFeedViewController.h; path = Controllers/NewsFeed/NewsFeedViewController.h; sourceTree = "<group>"; };
+		E94D17CF1AF8B57700E31B01 /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsFeedViewController.m; path = Controllers/NewsFeed/NewsFeedViewController.m; sourceTree = "<group>"; };
+		E94D17D01AF8B57700E31B01 /* NewsFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsFeedViewController.xib; path = Controllers/NewsFeed/NewsFeedViewController.xib; sourceTree = "<group>"; };
 		E955743B1AF86D2600F0B230 /* whunted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whunted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E955743F1AF86D2600F0B230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E95574401AF86D2600F0B230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E95574421AF86D2600F0B230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E95574431AF86D2600F0B230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E955744B1AF86D2600F0B230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E955744E1AF86D2600F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E95574541AF86D2600F0B230 /* whuntedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whuntedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95574591AF86D2600F0B230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E955745A1AF86D2600F0B230 /* whuntedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = whuntedTests.m; sourceTree = "<group>"; };
-		E95574641AF8887000F0B230 /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
-		E95574651AF8887000F0B230 /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
-		E95574661AF8887000F0B230 /* NewsFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsFeedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +60,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E94D17C81AF8B4FD00E31B01 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E94D17C91AF8B51000E31B01 /* AppDelegate.h */,
+				E94D17CA1AF8B51000E31B01 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		E94D17CC1AF8B55800E31B01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E94D17CD1AF8B56400E31B01 /* NewsFeed */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E94D17CD1AF8B56400E31B01 /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				E94D17CE1AF8B57700E31B01 /* NewsFeedViewController.h */,
+				E94D17CF1AF8B57700E31B01 /* NewsFeedViewController.m */,
+				E94D17D01AF8B57700E31B01 /* NewsFeedViewController.xib */,
+			);
+			name = NewsFeed;
+			sourceTree = "<group>";
+		};
 		E95574321AF86D2600F0B230 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +108,8 @@
 		E955743D1AF86D2600F0B230 /* whunted */ = {
 			isa = PBXGroup;
 			children = (
-				E95574421AF86D2600F0B230 /* AppDelegate.h */,
-				E95574431AF86D2600F0B230 /* AppDelegate.m */,
-				E95574641AF8887000F0B230 /* NewsFeedViewController.h */,
-				E95574651AF8887000F0B230 /* NewsFeedViewController.m */,
-				E95574661AF8887000F0B230 /* NewsFeedViewController.xib */,
+				E94D17C81AF8B4FD00E31B01 /* Application */,
+				E94D17CC1AF8B55800E31B01 /* Controllers */,
 				E955744B1AF86D2600F0B230 /* Images.xcassets */,
 				E955744D1AF86D2600F0B230 /* LaunchScreen.xib */,
 				E955743E1AF86D2600F0B230 /* Supporting Files */,
@@ -200,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */,
-				E95574681AF8887000F0B230 /* NewsFeedViewController.xib in Resources */,
+				E94D17D21AF8B57700E31B01 /* NewsFeedViewController.xib in Resources */,
 				E955744C1AF86D2600F0B230 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95574441AF86D2600F0B230 /* AppDelegate.m in Sources */,
 				E95574411AF86D2600F0B230 /* main.m in Sources */,
-				E95574671AF8887000F0B230 /* NewsFeedViewController.m in Sources */,
+				E94D17CB1AF8B51000E31B01 /* AppDelegate.m in Sources */,
+				E94D17D11AF8B57700E31B01 /* NewsFeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
