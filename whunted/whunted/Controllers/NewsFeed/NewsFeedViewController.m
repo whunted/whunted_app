@@ -7,6 +7,7 @@
 //
 
 #import "NewsFeedViewController.h"
+#import "NewsFeedTableViewCell.h"
 
 @interface NewsFeedViewController ()
 
@@ -68,28 +69,27 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"NewsFeedTableItem";
+    static NSString *cellIdentifier = @"NewsFeedTableViewCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+        NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:cellIdentifier owner:self options:nil];
+        cell = [topLevelObjects objectAtIndex:0];
     }
     
-    cell.textLabel.text = [self.newsfeedList objectAtIndex:indexPath.row];
-    [cell setBackgroundColor: (indexPath.row % 2 == 0) ? [UIColor colorWithRed:192 green:255 blue:62 alpha:200] : [UIColor colorWithRed:205 green:205 blue:193 alpha:200]];
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:[NSString stringWithFormat:@"Selected Value is %@",[self.newsfeedList objectAtIndex:indexPath.row]] delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
-    [alertView show];
-}
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:[NSString stringWithFormat:@"Selected Value is %@",[self.newsfeedList objectAtIndex:indexPath.row]] delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+//    [alertView show];
+//}
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 100;
+    return 300;
 }
 
 
