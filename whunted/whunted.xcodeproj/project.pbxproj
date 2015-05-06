@@ -19,6 +19,10 @@
 		E94D17E61AF8C29F00E31B01 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17E01AF8C29F00E31B01 /* profile.png */; };
 		E94D17E71AF8C29F00E31B01 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17E11AF8C29F00E31B01 /* search.png */; };
 		E94D17E91AF8D17C00E31B01 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17E81AF8D17C00E31B01 /* app_icon.png */; };
+		E94D17F41AF9B3E300E31B01 /* BuySellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D17F21AF9B3E300E31B01 /* BuySellViewController.m */; };
+		E94D17F51AF9B3E300E31B01 /* BuySellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94D17F31AF9B3E300E31B01 /* BuySellViewController.xib */; };
+		E94D17F91AF9B3FC00E31B01 /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D17F71AF9B3FC00E31B01 /* BrowseViewController.m */; };
+		E94D17FA1AF9B3FC00E31B01 /* BrowseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94D17F81AF9B3FC00E31B01 /* BrowseViewController.xib */; };
 		E955744C1AF86D2600F0B230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E955744B1AF86D2600F0B230 /* Images.xcassets */; };
 		E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E955744D1AF86D2600F0B230 /* LaunchScreen.xib */; };
 		E955745B1AF86D2600F0B230 /* whuntedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E955745A1AF86D2600F0B230 /* whuntedTests.m */; };
@@ -49,6 +53,12 @@
 		E94D17E01AF8C29F00E31B01 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = "Resources/Navigation Icons/profile.png"; sourceTree = "<group>"; };
 		E94D17E11AF8C29F00E31B01 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = "Resources/Navigation Icons/search.png"; sourceTree = "<group>"; };
 		E94D17E81AF8D17C00E31B01 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_icon.png; path = "Resources/Navigation Icons/app_icon.png"; sourceTree = "<group>"; };
+		E94D17F11AF9B3E300E31B01 /* BuySellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuySellViewController.h; path = Controllers/BuySell/BuySellViewController.h; sourceTree = "<group>"; };
+		E94D17F21AF9B3E300E31B01 /* BuySellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuySellViewController.m; path = Controllers/BuySell/BuySellViewController.m; sourceTree = "<group>"; };
+		E94D17F31AF9B3E300E31B01 /* BuySellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BuySellViewController.xib; path = Controllers/BuySell/BuySellViewController.xib; sourceTree = "<group>"; };
+		E94D17F61AF9B3FC00E31B01 /* BrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrowseViewController.h; path = Controllers/Browse/BrowseViewController.h; sourceTree = "<group>"; };
+		E94D17F71AF9B3FC00E31B01 /* BrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrowseViewController.m; path = Controllers/Browse/BrowseViewController.m; sourceTree = "<group>"; };
+		E94D17F81AF9B3FC00E31B01 /* BrowseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BrowseViewController.xib; path = Controllers/Browse/BrowseViewController.xib; sourceTree = "<group>"; };
 		E955743B1AF86D2600F0B230 /* whunted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whunted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E955744B1AF86D2600F0B230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E955744E1AF86D2600F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -88,6 +98,8 @@
 		E94D17CC1AF8B55800E31B01 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E94D17EB1AF9B32500E31B01 /* Browse */,
+				E94D17EA1AF9B28700E31B01 /* BuySell */,
 				E94D17CD1AF8B56400E31B01 /* NewsFeed */,
 			);
 			name = Controllers;
@@ -123,6 +135,26 @@
 				E94D17E11AF8C29F00E31B01 /* search.png */,
 			);
 			name = "Navigation Icons";
+			sourceTree = "<group>";
+		};
+		E94D17EA1AF9B28700E31B01 /* BuySell */ = {
+			isa = PBXGroup;
+			children = (
+				E94D17F11AF9B3E300E31B01 /* BuySellViewController.h */,
+				E94D17F21AF9B3E300E31B01 /* BuySellViewController.m */,
+				E94D17F31AF9B3E300E31B01 /* BuySellViewController.xib */,
+			);
+			name = BuySell;
+			sourceTree = "<group>";
+		};
+		E94D17EB1AF9B32500E31B01 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				E94D17F61AF9B3FC00E31B01 /* BrowseViewController.h */,
+				E94D17F71AF9B3FC00E31B01 /* BrowseViewController.m */,
+				E94D17F81AF9B3FC00E31B01 /* BrowseViewController.xib */,
+			);
+			name = Browse;
 			sourceTree = "<group>";
 		};
 		E95574321AF86D2600F0B230 = {
@@ -254,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94D17E51AF8C29F00E31B01 /* newsfeed.png in Resources */,
+				E94D17F51AF9B3E300E31B01 /* BuySellViewController.xib in Resources */,
 				E94D17E21AF8C29F00E31B01 /* browse.png in Resources */,
+				E94D17FA1AF9B3FC00E31B01 /* BrowseViewController.xib in Resources */,
 				E94D17DA1AF8B8F800E31B01 /* Info.plist in Resources */,
 				E94D17E41AF8C29F00E31B01 /* filter.png in Resources */,
 				E94D17E61AF8C29F00E31B01 /* profile.png in Resources */,
@@ -282,6 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94D17CB1AF8B51000E31B01 /* AppDelegate.m in Sources */,
+				E94D17F41AF9B3E300E31B01 /* BuySellViewController.m in Sources */,
+				E94D17F91AF9B3FC00E31B01 /* BrowseViewController.m in Sources */,
 				E94D17D41AF8B66000E31B01 /* main.m in Sources */,
 				E94D17D11AF8B57700E31B01 /* NewsFeedViewController.m in Sources */,
 			);
