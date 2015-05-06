@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E94D17CB1AF8B51000E31B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D17CA1AF8B51000E31B01 /* AppDelegate.m */; };
 		E94D17D11AF8B57700E31B01 /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D17CF1AF8B57700E31B01 /* NewsFeedViewController.m */; };
-		E94D17D21AF8B57700E31B01 /* NewsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94D17D01AF8B57700E31B01 /* NewsFeedViewController.xib */; };
 		E94D17D41AF8B66000E31B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D17D31AF8B66000E31B01 /* main.m */; };
 		E94D17DA1AF8B8F800E31B01 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E94D17D91AF8B8F800E31B01 /* Info.plist */; };
 		E94D17E21AF8C29F00E31B01 /* browse.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17DC1AF8C29F00E31B01 /* browse.png */; };
@@ -43,7 +42,6 @@
 		E94D17CA1AF8B51000E31B01 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = "<group>"; };
 		E94D17CE1AF8B57700E31B01 /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsFeedViewController.h; path = Controllers/NewsFeed/NewsFeedViewController.h; sourceTree = "<group>"; };
 		E94D17CF1AF8B57700E31B01 /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsFeedViewController.m; path = Controllers/NewsFeed/NewsFeedViewController.m; sourceTree = "<group>"; };
-		E94D17D01AF8B57700E31B01 /* NewsFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsFeedViewController.xib; path = Controllers/NewsFeed/NewsFeedViewController.xib; sourceTree = "<group>"; };
 		E94D17D31AF8B66000E31B01 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Application/main.m; sourceTree = "<group>"; };
 		E94D17D91AF8B8F800E31B01 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E94D17DC1AF8C29F00E31B01 /* browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = browse.png; path = "Resources/Navigation Icons/browse.png"; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			children = (
 				E94D17CE1AF8B57700E31B01 /* NewsFeedViewController.h */,
 				E94D17CF1AF8B57700E31B01 /* NewsFeedViewController.m */,
-				E94D17D01AF8B57700E31B01 /* NewsFeedViewController.xib */,
 			);
 			name = NewsFeed;
 			sourceTree = "<group>";
@@ -295,7 +292,6 @@
 				E94D17E91AF8D17C00E31B01 /* app_icon.png in Resources */,
 				E94D17E71AF8C29F00E31B01 /* search.png in Resources */,
 				E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */,
-				E94D17D21AF8B57700E31B01 /* NewsFeedViewController.xib in Resources */,
 				E955744C1AF86D2600F0B230 /* Images.xcassets in Resources */,
 				E94D17E31AF8C29F00E31B01 /* chat.png in Resources */,
 			);

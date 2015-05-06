@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewsFeedViewController : UIViewController
+@interface NewsFeedViewController : UITableViewController
+
+@property (nonatomic, retain) NSMutableArray *newsfeedList;
 
 @end
