@@ -40,12 +40,15 @@
     NewsFeedViewController *newsFeedVC = [[NewsFeedViewController alloc] init];
     [navController setViewControllers:[NSArray arrayWithObject:newsFeedVC]];
     [navController setTitle:@"News Feed"];
+    [navController.tabBarItem setImage:[UIImage imageNamed:@"newsfeed.png"]];
     
     BrowseViewController *browseController = [[BrowseViewController alloc] init];
     [browseController setTitle:@"Browse"];
+    [browseController.tabBarItem setImage:[UIImage imageNamed:@"shopping_cart.png"]];
     
     BuySellViewController *bsController = [[BuySellViewController alloc] init];
     [bsController setTitle:@"Buy&Sell"];
+    [bsController.tabBarItem setImage:[UIImage imageNamed:@"gun_target.png"]];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     NSArray *controllers = [NSArray arrayWithObjects:navController, browseController, bsController, nil];
