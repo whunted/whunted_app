@@ -60,6 +60,7 @@
     UIBarButtonItem *appIconButton = [[UIBarButtonItem alloc] initWithImage:appIcon style:UIBarButtonItemStylePlain target:self action:nil];
     self.navigationItem.leftBarButtonItem = appIconButton;
     self.navigationItem.leftBarButtonItem.enabled = NO;
+    self.navigationItem.leftBarButtonItem.tintColor = [UIColor whiteColor];
 }
 
 - (void) addTableView
