@@ -18,6 +18,7 @@
 		E94D17E51AF8C29F00E31B01 /* newsfeed.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17DF1AF8C29F00E31B01 /* newsfeed.png */; };
 		E94D17E61AF8C29F00E31B01 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17E01AF8C29F00E31B01 /* profile.png */; };
 		E94D17E71AF8C29F00E31B01 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17E11AF8C29F00E31B01 /* search.png */; };
+		E94D17E91AF8D17C00E31B01 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E94D17E81AF8D17C00E31B01 /* app_icon.png */; };
 		E955744C1AF86D2600F0B230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E955744B1AF86D2600F0B230 /* Images.xcassets */; };
 		E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E955744D1AF86D2600F0B230 /* LaunchScreen.xib */; };
 		E955745B1AF86D2600F0B230 /* whuntedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E955745A1AF86D2600F0B230 /* whuntedTests.m */; };
@@ -47,6 +48,7 @@
 		E94D17DF1AF8C29F00E31B01 /* newsfeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newsfeed.png; path = "Resources/Navigation Icons/newsfeed.png"; sourceTree = "<group>"; };
 		E94D17E01AF8C29F00E31B01 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = "Resources/Navigation Icons/profile.png"; sourceTree = "<group>"; };
 		E94D17E11AF8C29F00E31B01 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = "Resources/Navigation Icons/search.png"; sourceTree = "<group>"; };
+		E94D17E81AF8D17C00E31B01 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_icon.png; path = "Resources/Navigation Icons/app_icon.png"; sourceTree = "<group>"; };
 		E955743B1AF86D2600F0B230 /* whunted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whunted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E955744B1AF86D2600F0B230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E955744E1AF86D2600F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		E94D17DB1AF8C0C400E31B01 /* Navigation Icons */ = {
 			isa = PBXGroup;
 			children = (
+				E94D17E81AF8D17C00E31B01 /* app_icon.png */,
 				E94D17DC1AF8C29F00E31B01 /* browse.png */,
 				E94D17DD1AF8C29F00E31B01 /* chat.png */,
 				E94D17DE1AF8C29F00E31B01 /* filter.png */,
@@ -255,6 +258,7 @@
 				E94D17DA1AF8B8F800E31B01 /* Info.plist in Resources */,
 				E94D17E41AF8C29F00E31B01 /* filter.png in Resources */,
 				E94D17E61AF8C29F00E31B01 /* profile.png in Resources */,
+				E94D17E91AF8D17C00E31B01 /* app_icon.png in Resources */,
 				E94D17E71AF8C29F00E31B01 /* search.png in Resources */,
 				E955744F1AF86D2600F0B230 /* LaunchScreen.xib in Resources */,
 				E94D17D21AF8B57700E31B01 /* NewsFeedViewController.xib in Resources */,

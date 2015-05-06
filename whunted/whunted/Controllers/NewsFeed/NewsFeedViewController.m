@@ -30,6 +30,12 @@
     
     NSArray *actionButtonItems = @[buyButton, profileButton, chatButton, searchButton];
     self.navigationItem.rightBarButtonItems = actionButtonItems;
+    
+    UIImage *appIcon = [UIImage imageNamed:@"app_icon.png"];
+    UIBarButtonItem *appIconButton = [[UIBarButtonItem alloc] initWithImage:appIcon style:UIBarButtonItemStylePlain target:self action:nil];
+    self.navigationItem.leftBarButtonItem = appIconButton;
+    self.navigationItem.leftBarButtonItem.enabled = NO;
+    
 }
 
 - (void)didReceiveMemoryWarning {
